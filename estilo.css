@@ -1,4 +1,4 @@
-/* IDS  */
+/*  IDS  */
 
 #main-div-1 {
     margin: 30px;
@@ -6,7 +6,6 @@
 }
 
 #main-h1 {
-    background-image: url("./img/pagina-inicial-do-site-de-busca-baidu-1.jpg");
     border: 20px;
     margin: 30px;
     padding: 25px;
@@ -16,14 +15,23 @@
     color: white;
 }
 
+#link {
+    color: orange;
+}   
+
+#link_youtube {
+    position: center;
+}
+
 /* TAGS DO HTML*/
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 30px;
     border: 20px;
+    background-image: url("./img/pagina-inicial-do-site-de-busca-baidu-1.jpg");
+    background-size: cover;
 }
 
 h1 {
-    text-align: center;
     font-size: 26px;
 }
